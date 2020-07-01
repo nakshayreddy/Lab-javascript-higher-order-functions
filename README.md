@@ -5,6 +5,7 @@
 In the previous lesson, we have learnt some useful Higher Order Functions to manipulate arrays & objects. Now, let's put them to use in this lab.
 
 ## What should you do
+
 ```
 Fork this repo
 Clone this repo
@@ -12,6 +13,7 @@ Practice JavaScript - Higher order functions
 ```
 
 ## How To Submit
+
 ```
 Upon completion, run the following commands:
 
@@ -23,21 +25,23 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 ```
 
 # Instructions
+
 Create app.js and index.html. Write the code for the following functionalities given below and see the output in console.
 
 ### Function #1: Array Slice
 
 Take an example array. We will be using the below array for reference.
+
 ```
 const foods = [pizza, burger, fingerChips, donuts, springRoll];
 
 ```
+
 Create a new array named as `modifiedFood` and also create a `slice()` method.The `slice()` method should return the selected elements in an array, as a new array object. This method starts slicing the array from the given start argument and ends the slicing operation one element before the given second argument.
 
 ```
 Expected output: [burger, fingerShips, donuts]
 ```
-
 
 ### Function #2: Array Splice
 
@@ -50,7 +54,6 @@ const foods = [pizza, burger, fingerShips, donuts, springRoll];
 
 Expected output: [pizza, burger, noodles, icecream, fingerShips, donuts, springRoll];
 ```
-
 
 ### Function #3: Filter
 
@@ -66,20 +69,17 @@ const numberArray = [12,324,213,4,2,3,45,4234];
 
 Next, let's build on top of this. Create another functon called `isPrime()` with takes same `numberArray` as argument and _returns all prime numbers from the above given array_.
 
-
 ### Function #4: Reject
 
 We can now reuse the `isPrime()` function in conjunction with reject to get all the non-prime numbers in the array. The reject function does the opposite of the filter function. It returns an array with all the elements that do not satisfy the condition. Kindly note that there is no reject method in javascript arrays like filters. So you need to define a new function and make it work like reject.
 
 Create a function `nonPrime()` which takes `numberArray` as argument and _return all non-prime numbers from the above given array in Function #3_.
 
-
 ### Function #5: Lambda
 
 When defining short functions, it's convenient to use an alternative syntax called lambda function that allows us to define anonymous functions in a more compact way: _( /*arguments*/ ) => { /*code*/ }_. If our function is only a return statement, we can even strip the curly brackets and avoid writing return: _( /*arguments*/ ) => /*value to return*/_.
 
 Now, rewrite the function `isEven()` by using the concept of Lambda Function.
-
 
 ### Function #6: Map
 
